@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facade — Websites für lokale Unternehmen</title>
+  <meta name="description" content="Professionelle Websites für lokale Unternehmen, Künstler und Brands — mit festem Preis, persönlicher Betreuung und ohne IT-Stress.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+          <svg width="22" height="26" viewBox="0 0 44 52" fill="none" aria-hidden="true">
+            <path d="M4,52 L4,12 Q4,4 12,4 L32,4 Q40,4 40,12 L40,52"
+                  stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+          </svg>
+          <span>Facade</span>
+        </a>
+      <nav class="nav-menu" aria-label="Hauptnavigation">
+        <a href="#portfolio" data-i18n="nav.referenzen">Referenzen</a>
+        <a href="#workflow" data-i18n="nav.workflow">So geht's</a>
+        <a href="#ueber" data-i18n="nav.ueber">Über mich</a>
+        <a href="preise.html" data-i18n="nav.preise" class="nav-cta">Preise</a>
+      </nav>
+      <div class="nav-right">
+        <div class="lang-switch" aria-label="Sprache wechseln">
+          <button class="lang-btn active" data-lang="de">DEU</button>
+          <span class="lang-divider" aria-hidden="true">·</span>
+          <button class="lang-btn" data-lang="en">ENG</button>
+          <span class="lang-divider" aria-hidden="true">·</span>
+          <button class="lang-btn" data-lang="vi">VIET</button>
+        </div>
+        <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <p class="hero-eyebrow reveal" data-i18n="hero.eyebrow">Websites für lokale Unternehmen, Künstler & Brands</p>
+      <h1 class="reveal" style="transition-delay:.07s" data-i18n-html="hero.headline">Professionell online —<br><em>ohne IT-Stress.</em></h1>
+      <p class="hero-subtext reveal" style="transition-delay:.14s" data-i18n="hero.subtext">Ich baue Ihnen eine professionelle Website zu einem festen Preis. Persönlich, unkompliziert, fertig in einer Woche.</p>
+      <div class="reveal" style="transition-delay:.21s">
+        <a href="https://wa.me/491629357896?text=Hallo%20Nam%2C%20ich%20interessiere%20mich%20f%C3%BCr%20eine%20Website."
+           class="btn btn-primary"
+           target="_blank" rel="noopener">
+          <span data-i18n="hero.cta">Kostenlos anfragen</span>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="portfolio-header reveal">
+        <p class="section-label" data-i18n="portfolio.headline">Referenzen</p>
+        <h2 class="section-headline" data-i18n="portfolio.subtext">Websites, die für sich sprechen.</h2>
+      </div>
+
+      <div class="portfolio-tabs reveal" style="transition-delay:.07s">
+        <button class="tab-btn active" data-category="all" data-i18n="portfolio.tab.all">Alle</button>
+        <button class="tab-btn" data-category="restaurant" data-i18n="portfolio.tab.restaurant">Restaurants</button>
+        <button class="tab-btn" data-category="firma" data-i18n="portfolio.tab.firma">Firmen</button>
+        <button class="tab-btn" data-category="artist" data-i18n="portfolio.tab.artist">Künstler</button>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <!-- Red Duyên — Firma -->
+        <article class="portfolio-item reveal" data-category="firma" style="transition-delay:.05s">
+          <a href="https://redduyen.com/" target="_blank" rel="noopener" class="browser-frame">
+            <div class="browser-chrome">
+              <div class="browser-dots"><span></span><span></span><span></span></div>
+              <div class="browser-url">redduyen.com</div>
+            </div>
+            <div class="browser-viewport">
+              <img src="assets/img/portfolio-redduyen.jpg" alt="Red Duyên Website" loading="lazy">
+            </div>
+          </a>
+          <div class="portfolio-meta">
+            <div>
+              <p class="portfolio-tag" data-i18n="portfolio.tab.firma">Firma</p>
+              <p class="portfolio-name">Red Duyên</p>
+            </div>
+            <a href="https://redduyen.com/" target="_blank" rel="noopener" class="portfolio-link" data-i18n="portfolio.view">Live ansehen →</a>
+          </div>
+        </article>
+
+        <!-- NHAT Studio — Firma -->
+        <article class="portfolio-item reveal" data-category="firma" style="transition-delay:.1s">
+          <a href="https://nhats.netlify.app/" target="_blank" rel="noopener" class="browser-frame">
+            <div class="browser-chrome">
+              <div class="browser-dots"><span></span><span></span><span></span></div>
+              <div class="browser-url">nhats.netlify.app</div>
+            </div>
+            <div class="browser-viewport">
+              <img src="assets/img/portfolio-nhats.jpg" alt="NHAT Studio Website" loading="lazy">
+            </div>
+          </a>
+          <div class="portfolio-meta">
+            <div>
+              <p class="portfolio-tag" data-i18n="portfolio.tab.firma">Firma</p>
+              <p class="portfolio-name">NHAT Studio</p>
+            </div>
+            <a href="https://nhats.netlify.app/" target="_blank" rel="noopener" class="portfolio-link" data-i18n="portfolio.view">Live ansehen →</a>
+          </div>
+        </article>
+
+        <!-- Maurice — Künstler -->
+        <article class="portfolio-item reveal" data-category="artist" style="transition-delay:.15s">
+          <a href="https://mauricedl.netlify.app/" target="_blank" rel="noopener" class="browser-frame">
+            <div class="browser-chrome">
+              <div class="browser-dots"><span></span><span></span><span></span></div>
+              <div class="browser-url">mauricedl.netlify.app</div>
+            </div>
+            <div class="browser-viewport">
+              <img src="assets/img/portfolio-maurice.jpg" alt="Maurice Website" loading="lazy">
+            </div>
+          </a>
+          <div class="portfolio-meta">
+            <div>
+              <p class="portfolio-tag" data-i18n="portfolio.tab.artist">Künstler</p>
+              <p class="portfolio-name">Maurice</p>
+            </div>
+            <a href="https://mauricedl.netlify.app/" target="_blank" rel="noopener" class="portfolio-link" data-i18n="portfolio.view">Live ansehen →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Workflow -->
+  <section class="workflow" id="workflow">
+    <div class="container">
+      <div class="workflow-header reveal">
+        <h2 class="section-headline" data-i18n="workflow.headline">So funktioniert's</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal" style="transition-delay:.0s">
+          <div class="step-num">01</div>
+          <h3 data-i18n="workflow.step1.title">Anfrage</h3>
+          <p data-i18n="workflow.step1.desc">Sie schreiben mir auf WhatsApp — kein Formular, kein Stress.</p>
+        </div>
+        <div class="step reveal" style="transition-delay:.1s">
+          <div class="step-num">02</div>
+          <h3 data-i18n="workflow.step2.title">Gespräch</h3>
+          <p data-i18n="workflow.step2.desc">Wir sprechen kurz über Ihre Wünsche. Ich erkläre, was möglich ist.</p>
+        </div>
+        <div class="step reveal" style="transition-delay:.2s">
+          <div class="step-num">03</div>
+          <h3 data-i18n="workflow.step3.title">Website wird gebaut</h3>
+          <p data-i18n="workflow.step3.desc">Ich baue Ihre Website in wenigen Tagen — Sie müssen nichts tun.</p>
+        </div>
+        <div class="step reveal" style="transition-delay:.3s">
+          <div class="step-num">04</div>
+          <h3 data-i18n="workflow.step4.title">Übergabe & Einweisung</h3>
+          <p data-i18n="workflow.step4.desc">Sie erhalten Ihre fertige Website und eine kurze Einweisung, wie Sie Inhalte selbst ändern.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Advantages -->
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages-header reveal">
+        <h2 class="section-headline" data-i18n="advantages.headline">Warum ich?</h2>
+      </div>
+      <div class="adv-grid">
+        <div class="adv-item reveal">
+          <h3 data-i18n="adv1.title">Kein technisches Wissen nötig</h3>
+          <p data-i18n="adv1.desc">Ich kümmere mich um alles Technische. Sie beschreiben, was Sie wollen.</p>
+        </div>
+        <div class="adv-item reveal" style="transition-delay:.07s">
+          <h3 data-i18n="adv2.title">Fester Preis, keine Überraschungen</h3>
+          <p data-i18n="adv2.desc">Sie wissen vorher genau, was Sie zahlen. Keine versteckten Kosten.</p>
+        </div>
+        <div class="adv-item reveal" style="transition-delay:.14s">
+          <h3 data-i18n="adv3.title">Selbst Inhalte ändern</h3>
+          <p data-i18n="adv3.desc">Nach der Übergabe können Sie Texte und Bilder selbst aktualisieren.</p>
+        </div>
+        <div class="adv-item reveal" style="transition-delay:.21s">
+          <h3 data-i18n="adv4.title">Mensch statt Firma</h3>
+          <p data-i18n="adv4.desc">Kein Callcenter, keine Warteschleife. Direkt per WhatsApp erreichbar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="ueber">
+    <div class="container">
+      <div class="about-inner">
+        <div class="about-photo reveal">
+          <img src="assets/img/nam.jpg" alt="Nam Phan">
+        </div>
+        <div class="about-text">
+          <h2 class="reveal" data-i18n="about.headline">Über mich</h2>
+          <p class="reveal" style="transition-delay:.07s" data-i18n="about.p1">Ich bin Nam, und ich helfe lokalen Unternehmen, Künstlern und Marken dabei, professionell online aufzutreten — ohne Bürokratie, ohne IT-Stress, ohne versteckte Kosten.</p>
+          <p class="reveal" style="transition-delay:.14s" data-i18n="about.p2">Mein Ansatz ist einfach: Wir reden kurz, ich baue Ihre Website, und Sie bekommen ein Ergebnis, das Sie stolz zeigen können.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="faq-header reveal">
+        <h2 class="section-headline" data-i18n="faq.headline">Häufige Fragen</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item reveal">
+          <summary data-i18n="faq.q1">Wie lange dauert die Website-Erstellung?</summary>
+          <p class="faq-answer" data-i18n="faq.a1">In der Regel 3–7 Tage nach unserem ersten Gespräch — je nach Umfang.</p>
+        </details>
+        <details class="faq-item reveal" style="transition-delay:.05s">
+          <summary data-i18n="faq.q2">Muss ich technisches Wissen mitbringen?</summary>
+          <p class="faq-answer" data-i18n="faq.a2">Nein. Ich erkläre alles in einfacher Sprache. Sie müssen nichts über Technik wissen.</p>
+        </details>
+        <details class="faq-item reveal" style="transition-delay:.1s">
+          <summary data-i18n="faq.q3">Kann ich die Website danach selbst bearbeiten?</summary>
+          <p class="faq-answer" data-i18n="faq.a3">Ja. Nach der Übergabe können Sie Texte und Bilder selbst ändern — ganz ohne technisches Wissen.</p>
+        </details>
+        <details class="faq-item reveal" style="transition-delay:.15s">
+          <summary data-i18n="faq.q4">Was passiert, wenn ich spätere Änderungen möchte?</summary>
+          <p class="faq-answer" data-i18n="faq.a4">Kleine Änderungen machen Sie selbst. Für größere Anpassungen bin ich für 20 €/Std. für Sie da.</p>
+        </details>
+        <details class="faq-item reveal" style="transition-delay:.2s">
+          <summary data-i18n="faq.q5">Gibt es versteckte Kosten?</summary>
+          <p class="faq-answer" data-i18n="faq.a5">Nein. Sie zahlen einmalig für die Erstellung. Danach nur, wenn Sie Domain und Hosting weiterführen möchten (ab 49 €/Jahr).</p>
+        </details>
+        <details class="faq-item reveal" style="transition-delay:.25s">
+          <summary data-i18n="faq.q6">In welchen Sprachen kann die Website sein?</summary>
+          <p class="faq-answer" data-i18n="faq.a6">Deutsch, Englisch, Vietnamesisch — oder mehrsprachig. Ganz nach Ihren Wünschen.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="kontakt">
+    <div class="container">
+      <div class="contact-header reveal">
+        <h2 class="section-headline" data-i18n="contact.headline">Bereit loszulegen?</h2>
+      </div>
+      <div class="contact-split">
+
+        <!-- WhatsApp -->
+        <div class="contact-block reveal">
+          <p class="contact-channel-label" data-i18n="contact.wa.label">WhatsApp</p>
+          <p class="contact-block-desc" data-i18n="contact.wa.desc">Schreiben Sie mir direkt auf WhatsApp — schnell, kostenlos, ohne Wartezeit.</p>
+          <a href="https://wa.me/491629357896?text=Hallo%20Nam%2C%20ich%20interessiere%20mich%20f%C3%BCr%20eine%20Website."
+             class="btn btn-primary"
+             target="_blank" rel="noopener">
+            <span data-i18n="contact.cta">Auf WhatsApp schreiben</span>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Kontaktformular -->
+        <div class="contact-block reveal" style="transition-delay:.1s">
+          <p class="contact-channel-label" data-i18n="contact.form.label">Kontaktformular</p>
+          <form class="contact-form" name="kontakt" method="POST" action="/" data-netlify="true">
+            <input type="hidden" name="form-name" value="kontakt">
+            <div class="form-group">
+              <label for="contact-name" data-i18n="contact.form.name">Ihr Name</label>
+              <input type="text" id="contact-name" name="name" required
+                     data-i18n-placeholder="contact.form.name.placeholder"
+                     placeholder="z.B. Maria Müller">
+            </div>
+            <div class="form-group">
+              <label for="contact-message" data-i18n="contact.form.message">Nachricht</label>
+              <textarea id="contact-message" name="message" rows="4"
+                        data-i18n-placeholder="contact.form.message.placeholder"
+                        placeholder="Was brauchen Sie? Ein paar Sätze genügen."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <span data-i18n="contact.form.submit">Nachricht senden →</span>
+            </button>
+          </form>
+          <p class="contact-success hidden" data-i18n="contact.form.success">Danke! Ich melde mich in Kürze.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="index.html" class="footer-logo">
+          <svg width="20" height="24" viewBox="0 0 44 52" fill="none" aria-hidden="true">
+            <path d="M4,52 L4,12 Q4,4 12,4 L32,4 Q40,4 40,12 L40,52"
+                  stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+          </svg>
+          <span>Facade</span>
+        </a>
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <a href="preise.html" data-i18n="nav.preise">Preise</a>
+        <a href="impressum.html" data-i18n="nav.impressum">Impressum</a>
+      </nav>
+      <p class="footer-copy">© 2026 Facade · <span data-i18n="footer.rights">Alle Rechte vorbehalten.</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+.playwright-mcp/
+
+# Test-Screenshots (nicht für die Website nötig)
+mobile-*.png
+prices-*.png
+
+# Logo-Konzept Dateien
+facade-logo-konzepte.html
+facade-portal-variationen.html
+facade-schrift-variationen.html
+facade-logo-final.html
+
+node_modules/

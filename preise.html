@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preise — Facade</title>
+  <meta name="description" content="Faire, transparente Preise für professionelle Websites — Basis ab 99 €, Standard ab 199 €, Premium ab 299 €.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+          <svg width="22" height="26" viewBox="0 0 44 52" fill="none" aria-hidden="true">
+            <path d="M4,52 L4,12 Q4,4 12,4 L32,4 Q40,4 40,12 L40,52"
+                  stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+          </svg>
+          <span>Facade</span>
+        </a>
+      <nav class="nav-menu" aria-label="Hauptnavigation">
+        <a href="index.html#portfolio" data-i18n="nav.referenzen">Referenzen</a>
+        <a href="index.html#workflow" data-i18n="nav.workflow">So geht's</a>
+        <a href="index.html#ueber" data-i18n="nav.ueber">Über mich</a>
+        <a href="preise.html" data-i18n="nav.preise" class="nav-cta">Preise</a>
+      </nav>
+      <div class="nav-right">
+        <div class="lang-switch" aria-label="Sprache wechseln">
+          <button class="lang-btn active" data-lang="de">DEU</button>
+          <span class="lang-divider" aria-hidden="true">·</span>
+          <button class="lang-btn" data-lang="en">ENG</button>
+          <span class="lang-divider" aria-hidden="true">·</span>
+          <button class="lang-btn" data-lang="vi">VIET</button>
+        </div>
+        <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Prices -->
+  <section class="prices">
+    <div class="container">
+      <div class="prices-header reveal">
+        <p class="section-label" data-i18n="prices.headline">Preise</p>
+        <h1 class="section-headline" data-i18n="prices.subtext">Einfach, fair und transparent.</h1>
+      </div>
+
+      <div class="price-duo">
+
+        <!-- Website (einmalig) -->
+        <div class="price-card featured reveal">
+          <span class="price-badge" data-i18n="prices.badge">Einführungsangebot</span>
+          <p class="price-name" data-i18n="prices.standard.name">Website</p>
+          <div class="price-amount-row">
+            <span class="price-amount" data-i18n="prices.standard.price">199 €</span>
+            <span class="price-original" data-i18n="prices.standard.original">statt 299 €</span>
+          </div>
+          <p class="price-period" data-i18n="prices.standard.period">einmalig · zeitlich begrenzt</p>
+          <p class="price-desc" data-i18n="prices.standard.desc">Ich erstelle Ihre komplette Website — professionell, persönlich, ohne IT-Stress.</p>
+          <ul class="price-features">
+            <li class="price-feature" data-i18n="prices.standard.f2">CMS — Inhalte selbst ändern</li>
+            <li class="price-feature" data-i18n="prices.standard.f3">Übergabe & persönliche Einweisung</li>
+            <li class="price-feature" data-i18n="prices.standard.f4">Fertig in ca. 1 Woche</li>
+          </ul>
+          <a href="https://wa.me/491629357896?text=Hallo%20Nam%2C%20ich%20interessiere%20mich%20f%C3%BCr%20das%20Angebot."
+             class="btn btn-primary"
+             target="_blank" rel="noopener"
+             data-i18n="prices.cta">Jetzt kostenlos anfragen →</a>
+        </div>
+
+        <!-- Jahrespaket (laufend) -->
+        <div class="price-card price-card--secondary reveal" style="transition-delay:.1s">
+          <p class="price-label-tag" data-i18n="prices.extra.headline">Laufende Kosten</p>
+          <p class="price-name" data-i18n="prices.annual.label">Jahrespaket</p>
+          <p class="price-amount price-amount--sm" data-i18n-html="prices.annual.price">49 €<span class="price-per"> /Jahr</span></p>
+          <p class="price-desc" data-i18n="prices.annual.desc">Damit Ihre Website nach der Erstellung online bleibt — alles inklusive.</p>
+          <ul class="price-features">
+            <li class="price-feature" data-i18n="prices.annual.f1">Eigene Domain (.de oder .com)</li>
+            <li class="price-feature" data-i18n="prices.annual.f2">Hosting — Website bleibt online</li>
+            <li class="price-feature" data-i18n="prices.annual.f3">CMS-Zugang inklusive</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="index.html" class="footer-logo">
+          <svg width="20" height="24" viewBox="0 0 44 52" fill="none" aria-hidden="true">
+            <path d="M4,52 L4,12 Q4,4 12,4 L32,4 Q40,4 40,12 L40,52"
+                  stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+          </svg>
+          <span>Facade</span>
+        </a>
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <a href="preise.html" data-i18n="nav.preise">Preise</a>
+        <a href="impressum.html" data-i18n="nav.impressum">Impressum</a>
+      </nav>
+      <p class="footer-copy">© 2026 Facade · <span data-i18n="footer.rights">Alle Rechte vorbehalten.</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
