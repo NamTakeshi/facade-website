@@ -529,13 +529,13 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 /* ─── Pricing teaser ─────────────────────────────────────── */
 .pricing-teaser {
   padding-block: clamp(2.5rem, 5vw, 4rem);
+  text-align: center;
 }
 .pricing-teaser-inner {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  flex-wrap: wrap;
+  gap: 1.75rem;
 }
 .pricing-teaser-amount {
   font-family: var(--serif);
@@ -546,28 +546,10 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   margin-top: 0.5rem;
   margin-bottom: 0.6rem;
 }
-.pricing-teaser-original {
-  font-size: 1rem;
-  color: var(--text-muted);
-  text-decoration: line-through;
-  text-decoration-color: var(--accent);
-  font-family: var(--serif);
-  font-weight: 400;
-}
-.pricing-teaser-note {
-  font-size: 1rem;
-  font-family: var(--sans);
-  font-weight: 400;
-  color: var(--accent);
-}
 .pricing-teaser-sub {
   font-size: 0.9rem;
   color: var(--text-muted);
   max-width: 48ch;
-}
-
-@media (max-width: 600px) {
-  .pricing-teaser-inner { flex-direction: column; align-items: flex-start; }
 }
 
 /* ─── About ──────────────────────────────────────────────── */
