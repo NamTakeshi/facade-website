@@ -154,15 +154,20 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   inset: -20px;
   background-image: url('../img/hero-cafe.jpg');
   background-size: cover;
-  background-position: center;
-  filter: blur(6px);
+  background-position: center top;
+  filter: blur(3px);
   z-index: 0;
 }
 .hero::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(20, 16, 12, 0.52);
+  background: linear-gradient(
+    to bottom,
+    rgba(247, 244, 238, 0.55) 0%,
+    rgba(247, 244, 238, 0.80) 85%,
+    rgba(247, 244, 238, 1.00) 100%
+  );
   z-index: 1;
 }
 .hero .container {
@@ -174,7 +179,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.70);
+  color: var(--accent);
   margin-bottom: 1.25rem;
 }
 .hero h1 {
@@ -183,7 +188,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   font-weight: 500;
   line-height: 1.12;
   letter-spacing: -0.02em;
-  color: #fff;
+  color: var(--text);
   margin-bottom: 1.75rem;
   max-width: 22ch;
   margin-left: auto;
@@ -191,11 +196,11 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 }
 .hero h1 em {
   font-style: italic;
-  color: #a8d4b8;
+  color: var(--accent);
 }
 .hero-subtext {
   font-size: 1.0625rem;
-  color: rgba(255,255,255,0.78);
+  color: var(--text-muted);
   max-width: 48ch;
   line-height: 1.7;
   margin-bottom: 2.5rem;
