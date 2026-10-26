@@ -529,7 +529,6 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 /* ─── Pricing teaser ─────────────────────────────────────── */
 .pricing-teaser {
   padding-block: clamp(2.5rem, 5vw, 4rem);
-  border-top: 1px solid var(--border);
 }
 .pricing-teaser-inner {
   display: flex;
