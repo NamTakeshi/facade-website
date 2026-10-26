@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt — Facade</title>
+  <meta name="description" content="Schreiben Sie mir auf WhatsApp oder nutzen Sie das Kontaktformular — schnell, kostenlos, unverbindlich.">
+  <link rel="stylesheet" href="assets/css/styles.css?v=3">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+          <svg width="22" height="26" viewBox="0 0 44 52" fill="none" aria-hidden="true">
+            <path d="M4,52 L4,12 Q4,4 12,4 L32,4 Q40,4 40,12 L40,52"
+                  stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+          </svg>
+          <span>Facade</span>
+        </a>
+      <nav class="nav-menu" aria-label="Hauptnavigation">
+        <a href="referenzen.html" data-i18n="nav.referenzen">Referenzen</a>
+        <a href="index.html#ueber" data-i18n="nav.ueber">Über mich</a>
+        <a href="kontakt.html" data-i18n="nav.kontakt">Kontakt</a>
+        <a href="preise.html" data-i18n="nav.preise" class="nav-cta">Preise</a>
+      </nav>
+      <div class="nav-right">
+        <div class="lang-switch" aria-label="Sprache wechseln">
+          <button class="lang-btn active" data-lang="de">DEU</button>
+          <span class="lang-divider" aria-hidden="true">·</span>
+          <button class="lang-btn" data-lang="en">ENG</button>
+          <span class="lang-divider" aria-hidden="true">·</span>
+          <button class="lang-btn" data-lang="vi">VIET</button>
+        </div>
+        <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact -->
+  <section class="contact" id="kontakt">
+    <div class="container">
+      <div class="contact-header reveal">
+        <h1 class="section-headline" data-i18n="contact.headline">Bereit loszulegen?</h1>
+      </div>
+      <div class="contact-split">
+
+        <!-- WhatsApp -->
+        <div class="contact-block reveal">
+          <p class="contact-channel-label" data-i18n="contact.wa.label">WhatsApp</p>
+          <p class="contact-block-desc" data-i18n="contact.wa.desc">Schreiben Sie mir direkt auf WhatsApp — schnell, kostenlos, ohne Wartezeit.</p>
+          <a href="https://wa.me/491629357896?text=Hallo%20Nam%2C%20ich%20interessiere%20mich%20f%C3%BCr%20eine%20Website."
+             class="btn btn-primary"
+             target="_blank" rel="noopener">
+            <span data-i18n="contact.cta">Auf WhatsApp schreiben</span>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Kontaktformular -->
+        <div class="contact-block reveal" style="transition-delay:.1s">
+          <p class="contact-channel-label" data-i18n="contact.form.label">Kontaktformular</p>
+          <form class="contact-form" name="kontakt" method="POST" action="/" data-netlify="true">
+            <input type="hidden" name="form-name" value="kontakt">
+            <div class="form-group">
+              <label for="contact-name" data-i18n="contact.form.name">Ihr Name</label>
+              <input type="text" id="contact-name" name="name" required
+                     data-i18n-placeholder="contact.form.name.placeholder"
+                     placeholder="z.B. Maria Müller">
+            </div>
+            <div class="form-group">
+              <label for="contact-message" data-i18n="contact.form.message">Nachricht</label>
+              <textarea id="contact-message" name="message" rows="4"
+                        data-i18n-placeholder="contact.form.message.placeholder"
+                        placeholder="Was brauchen Sie? Ein paar Sätze genügen."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <span data-i18n="contact.form.submit">Nachricht senden →</span>
+            </button>
+          </form>
+          <p class="contact-success hidden" data-i18n="contact.form.success">Danke! Ich melde mich in Kürze.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="index.html" class="footer-logo">
+          <svg width="20" height="24" viewBox="0 0 44 52" fill="none" aria-hidden="true">
+            <path d="M4,52 L4,12 Q4,4 12,4 L32,4 Q40,4 40,12 L40,52"
+                  stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+          </svg>
+          <span>Facade</span>
+        </a>
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <a href="preise.html" data-i18n="nav.preise">Preise</a>
+        <a href="kontakt.html" data-i18n="nav.kontakt">Kontakt</a>
+        <a href="impressum.html" data-i18n="nav.impressum">Impressum</a>
+      </nav>
+      <p class="footer-copy">© 2026 Facade · <span data-i18n="footer.rights">Alle Rechte vorbehalten.</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
