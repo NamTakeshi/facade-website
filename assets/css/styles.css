@@ -227,6 +227,15 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .btn-outline:hover {
   border-color: var(--text);
 }
+.btn-secondary {
+  border: 1.5px solid var(--accent);
+  color: var(--accent);
+}
+.btn-secondary:hover {
+  background: var(--accent);
+  color: var(--bg);
+  transform: translateY(-1px);
+}
 
 /* ─── Section headers ────────────────────────────────────── */
 .section-label {
@@ -287,6 +296,10 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.75rem;
+}
+.portfolio-footer {
+  text-align: center;
+  margin-top: 2.5rem;
 }
 .portfolio-item {
   transition: opacity 0.3s ease;

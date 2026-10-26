@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Referenzen — Facade</title>
+  <meta name="description" content="Websites von Facade — professionelle Projekte für lokale Unternehmen, Künstler und Brands.">
+  <link rel="stylesheet" href="assets/css/styles.css?v=3">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+          <svg width="22" height="26" viewBox="0 0 44 52" fill="none" aria-hidden="true">
+            <path d="M4,52 L4,12 Q4,4 12,4 L32,4 Q40,4 40,12 L40,52"
+                  stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+          </svg>
+          <span>Facade</span>
+        </a>
+      <nav class="nav-menu" aria-label="Hauptnavigation">
+        <a href="referenzen.html" data-i18n="nav.referenzen">Referenzen</a>
+        <a href="index.html#workflow" data-i18n="nav.workflow">So geht's</a>
+        <a href="index.html#ueber" data-i18n="nav.ueber">Über mich</a>
+        <a href="preise.html" data-i18n="nav.preise" class="nav-cta">Preise</a>
+      </nav>
+      <div class="nav-right">
+        <div class="lang-switch" aria-label="Sprache wechseln">
+          <button class="lang-btn active" data-lang="de">DEU</button>
+          <span class="lang-divider" aria-hidden="true">·</span>
+          <button class="lang-btn" data-lang="en">ENG</button>
+          <span class="lang-divider" aria-hidden="true">·</span>
+          <button class="lang-btn" data-lang="vi">VIET</button>
+        </div>
+        <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="portfolio-header reveal">
+        <h1 class="section-headline" data-i18n="portfolio.subtext">Websites, die für sich sprechen.</h1>
+      </div>
+
+      <div class="portfolio-tabs reveal" style="transition-delay:.07s">
+        <button class="tab-btn active" data-category="all" data-i18n="portfolio.tab.all">Alle</button>
+        <button class="tab-btn" data-category="restaurant" data-i18n="portfolio.tab.restaurant">Restaurants</button>
+        <button class="tab-btn" data-category="firma" data-i18n="portfolio.tab.firma">Firmen</button>
+        <button class="tab-btn" data-category="artist" data-i18n="portfolio.tab.artist">Künstler</button>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <!-- Red Duyên — Firma -->
+        <article class="portfolio-item reveal" data-category="firma" style="transition-delay:.05s">
+          <a href="https://redduyen.com/" target="_blank" rel="noopener" class="browser-frame">
+            <div class="browser-chrome">
+              <div class="browser-dots"><span></span><span></span><span></span></div>
+              <div class="browser-url">redduyen.com</div>
+            </div>
+            <div class="browser-viewport">
+              <img src="assets/img/portfolio-redduyen.jpg" alt="Red Duyên Website" loading="lazy">
+            </div>
+          </a>
+          <div class="portfolio-meta">
+            <div>
+              <p class="portfolio-tag" data-i18n="portfolio.tab.firma">Firma</p>
+              <p class="portfolio-name">Red Duyên</p>
+            </div>
+            <a href="https://redduyen.com/" target="_blank" rel="noopener" class="portfolio-link" data-i18n="portfolio.view">Live ansehen →</a>
+          </div>
+        </article>
+
+        <!-- Ann's Nails — Firma -->
+        <article class="portfolio-item reveal" data-category="firma" style="transition-delay:.1s">
+          <a href="https://annsnails.netlify.app/" target="_blank" rel="noopener" class="browser-frame">
+            <div class="browser-chrome">
+              <div class="browser-dots"><span></span><span></span><span></span></div>
+              <div class="browser-url">annsnails.netlify.app</div>
+            </div>
+            <div class="browser-viewport">
+              <img src="assets/img/portfolio-annsnails.jpg" alt="Ann's Nails Website" loading="lazy">
+            </div>
+          </a>
+          <div class="portfolio-meta">
+            <div>
+              <p class="portfolio-tag" data-i18n="portfolio.tab.firma">Firma</p>
+              <p class="portfolio-name">Ann's Nails</p>
+            </div>
+            <a href="https://annsnails.netlify.app/" target="_blank" rel="noopener" class="portfolio-link" data-i18n="portfolio.view">Live ansehen →</a>
+          </div>
+        </article>
+
+        <!-- NHAT Studio — Firma -->
+        <article class="portfolio-item reveal" data-category="firma" style="transition-delay:.15s">
+          <a href="https://nhats.netlify.app/" target="_blank" rel="noopener" class="browser-frame">
+            <div class="browser-chrome">
+              <div class="browser-dots"><span></span><span></span><span></span></div>
+              <div class="browser-url">nhats.netlify.app</div>
+            </div>
+            <div class="browser-viewport">
+              <img src="assets/img/portfolio-nhats.jpg" alt="NHAT Studio Website" loading="lazy">
+            </div>
+          </a>
+          <div class="portfolio-meta">
+            <div>
+              <p class="portfolio-tag" data-i18n="portfolio.tab.firma">Firma</p>
+              <p class="portfolio-name">NHAT Studio</p>
+            </div>
+            <a href="https://nhats.netlify.app/" target="_blank" rel="noopener" class="portfolio-link" data-i18n="portfolio.view">Live ansehen →</a>
+          </div>
+        </article>
+
+        <!-- Maurice — Künstler -->
+        <article class="portfolio-item reveal" data-category="artist" style="transition-delay:.2s">
+          <a href="https://mauricedl.netlify.app/" target="_blank" rel="noopener" class="browser-frame">
+            <div class="browser-chrome">
+              <div class="browser-dots"><span></span><span></span><span></span></div>
+              <div class="browser-url">mauricedl.netlify.app</div>
+            </div>
+            <div class="browser-viewport">
+              <img src="assets/img/portfolio-maurice.jpg" alt="Maurice Website" loading="lazy">
+            </div>
+          </a>
+          <div class="portfolio-meta">
+            <div>
+              <p class="portfolio-tag" data-i18n="portfolio.tab.artist">Künstler</p>
+              <p class="portfolio-name">Maurice</p>
+            </div>
+            <a href="https://mauricedl.netlify.app/" target="_blank" rel="noopener" class="portfolio-link" data-i18n="portfolio.view">Live ansehen →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="index.html" class="footer-logo">
+          <svg width="20" height="24" viewBox="0 0 44 52" fill="none" aria-hidden="true">
+            <path d="M4,52 L4,12 Q4,4 12,4 L32,4 Q40,4 40,12 L40,52"
+                  stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+          </svg>
+          <span>Facade</span>
+        </a>
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <a href="preise.html" data-i18n="nav.preise">Preise</a>
+        <a href="impressum.html" data-i18n="nav.impressum">Impressum</a>
+      </nav>
+      <p class="footer-copy">© 2026 Facade · <span data-i18n="footer.rights">Alle Rechte vorbehalten.</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
