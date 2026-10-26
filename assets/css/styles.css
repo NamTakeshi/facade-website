@@ -148,8 +148,9 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   overflow: hidden;
   text-align: center;
   background-image: url('../img/hero-cafe.jpg');
-  background-size: cover;
-  background-position: center 30%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 10%;
 }
 .hero::after {
   content: '';
