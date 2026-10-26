@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Über mich — Facade</title>
+  <meta name="description" content="Ich bin Nam — Webentwickler, Designer, und jemand, der weiß, was es bedeutet, neu anzufangen. Hier ist meine Geschichte.">
+  <link rel="stylesheet" href="assets/css/styles.css?v=3">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+          <svg width="22" height="26" viewBox="0 0 44 52" fill="none" aria-hidden="true">
+            <path d="M4,52 L4,12 Q4,4 12,4 L32,4 Q40,4 40,12 L40,52"
+                  stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+          </svg>
+          <span>Facade</span>
+        </a>
+      <nav class="nav-menu" aria-label="Hauptnavigation">
+        <a href="referenzen.html" data-i18n="nav.referenzen">Referenzen</a>
+        <a href="preise.html" data-i18n="nav.preise" class="nav-cta">Preise</a>
+        <a href="ueber.html" data-i18n="nav.ueber">Über mich</a>
+        <a href="kontakt.html" data-i18n="nav.kontakt">Kontakt</a>
+      </nav>
+      <div class="nav-right">
+        <div class="lang-switch" aria-label="Sprache wechseln">
+          <button class="lang-btn active" data-lang="de">DEU</button>
+          <span class="lang-divider" aria-hidden="true">·</span>
+          <button class="lang-btn" data-lang="en">ENG</button>
+          <span class="lang-divider" aria-hidden="true">·</span>
+          <button class="lang-btn" data-lang="vi">VIET</button>
+        </div>
+        <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page header -->
+  <section class="about-page-header">
+    <div class="container">
+      <h1 class="section-headline reveal" data-i18n="about.page.headline">Ich bin Nam.</h1>
+      <p class="about-page-sub reveal" style="transition-delay:.07s" data-i18n="about.page.sub">Webentwickler, Designer — und jemand, der weiß, was es bedeutet, neu anzufangen.</p>
+    </div>
+  </section>
+
+  <!-- Story with photo -->
+  <section class="about about--page">
+    <div class="container">
+      <div class="about-inner">
+        <div class="about-photo reveal">
+          <img src="assets/img/nam.jpg" alt="Nam Phan">
+        </div>
+        <div class="about-text">
+          <p class="reveal" data-i18n="about.story.p1">Mit acht Jahren bin ich mit meiner Familie aus Vietnam nach Deutschland gezogen. Eine neue Sprache, eine andere Kultur, andere Regeln im Miteinander — das erste Jahr war herausfordernd. Aber ich habe schnell gelernt, zuzuhören und mich anzupassen.</p>
+          <p class="reveal" style="transition-delay:.07s" data-i18n="about.story.p2">Mein Weg führte mich ins IT-Studium. Als Entwickler und Designer habe ich ein Gespür dafür entwickelt, was gutes Design ausmacht — nicht nur schön aussehen, sondern klar kommunizieren, wer man ist.</p>
+          <p class="reveal" style="transition-delay:.14s" data-i18n="about.story.p3">Meine Eltern haben ihre Wurzeln in der Gastronomie. Ich bin mit kleinen Betrieben aufgewachsen — ich weiß, wie viel Herzblut dahintersteckt, und wie viele davon noch kein richtiges Gesicht nach außen haben.</p>
+          <p class="reveal" style="transition-delay:.21s" data-i18n="about.story.p4">Das ist der Kern von Facade: Lokalen Unternehmen — besonders Vietnamesen und anderen Zuwanderern — dabei helfen, sichtbar zu werden. Eine Website, ein Foto, ein kurzes Video — was auch immer es braucht, damit die Welt sieht, was wirklich dahintersteckt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="about-cta">
+    <div class="container">
+      <div class="about-cta-inner reveal">
+        <p data-i18n="about.cta.text">Haben Sie Fragen oder möchten Sie starten?</p>
+        <a href="kontakt.html" class="btn btn-primary" data-i18n="about.cta.btn">Jetzt Kontakt aufnehmen →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="index.html" class="footer-logo">
+          <svg width="20" height="24" viewBox="0 0 44 52" fill="none" aria-hidden="true">
+            <path d="M4,52 L4,12 Q4,4 12,4 L32,4 Q40,4 40,12 L40,52"
+                  stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+          </svg>
+          <span>Facade</span>
+        </a>
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <a href="preise.html" data-i18n="nav.preise">Preise</a>
+        <a href="kontakt.html" data-i18n="nav.kontakt">Kontakt</a>
+        <a href="impressum.html" data-i18n="nav.impressum">Impressum</a>
+      </nav>
+      <p class="footer-copy">© 2026 Facade · <span data-i18n="footer.rights">Alle Rechte vorbehalten.</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
