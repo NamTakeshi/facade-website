@@ -147,7 +147,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   position: relative;
   overflow: hidden;
   text-align: center;
-  background-image: url('../img/hero-cafe.jpg');
+  background-image: url('../img/hero-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
