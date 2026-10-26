@@ -20,7 +20,7 @@
           <span>Facade</span>
         </a>
       <nav class="nav-menu" aria-label="Hauptnavigation">
-        <a href="#portfolio" data-i18n="nav.referenzen">Referenzen</a>
+        <a href="referenzen.html" data-i18n="nav.referenzen">Referenzen</a>
         <a href="#workflow" data-i18n="nav.workflow">So geht's</a>
         <a href="#ueber" data-i18n="nav.ueber">Über mich</a>
         <a href="preise.html" data-i18n="nav.preise" class="nav-cta">Preise</a>
@@ -65,13 +65,6 @@
         <h2 class="section-headline" data-i18n="portfolio.subtext">Websites, die für sich sprechen.</h2>
       </div>
 
-      <div class="portfolio-tabs reveal" style="transition-delay:.07s">
-        <button class="tab-btn active" data-category="all" data-i18n="portfolio.tab.all">Alle</button>
-        <button class="tab-btn" data-category="restaurant" data-i18n="portfolio.tab.restaurant">Restaurants</button>
-        <button class="tab-btn" data-category="firma" data-i18n="portfolio.tab.firma">Firmen</button>
-        <button class="tab-btn" data-category="artist" data-i18n="portfolio.tab.artist">Künstler</button>
-      </div>
-
       <div class="portfolio-grid">
 
         <!-- Red Duyên — Firma -->
@@ -94,48 +87,8 @@
           </div>
         </article>
 
-        <!-- NHAT Studio — Firma -->
-        <article class="portfolio-item reveal" data-category="firma" style="transition-delay:.1s">
-          <a href="https://nhats.netlify.app/" target="_blank" rel="noopener" class="browser-frame">
-            <div class="browser-chrome">
-              <div class="browser-dots"><span></span><span></span><span></span></div>
-              <div class="browser-url">nhats.netlify.app</div>
-            </div>
-            <div class="browser-viewport">
-              <img src="assets/img/portfolio-nhats.jpg" alt="NHAT Studio Website" loading="lazy">
-            </div>
-          </a>
-          <div class="portfolio-meta">
-            <div>
-              <p class="portfolio-tag" data-i18n="portfolio.tab.firma">Firma</p>
-              <p class="portfolio-name">NHAT Studio</p>
-            </div>
-            <a href="https://nhats.netlify.app/" target="_blank" rel="noopener" class="portfolio-link" data-i18n="portfolio.view">Live ansehen →</a>
-          </div>
-        </article>
-
-        <!-- Maurice — Künstler -->
-        <article class="portfolio-item reveal" data-category="artist" style="transition-delay:.15s">
-          <a href="https://mauricedl.netlify.app/" target="_blank" rel="noopener" class="browser-frame">
-            <div class="browser-chrome">
-              <div class="browser-dots"><span></span><span></span><span></span></div>
-              <div class="browser-url">mauricedl.netlify.app</div>
-            </div>
-            <div class="browser-viewport">
-              <img src="assets/img/portfolio-maurice.jpg" alt="Maurice Website" loading="lazy">
-            </div>
-          </a>
-          <div class="portfolio-meta">
-            <div>
-              <p class="portfolio-tag" data-i18n="portfolio.tab.artist">Künstler</p>
-              <p class="portfolio-name">Maurice</p>
-            </div>
-            <a href="https://mauricedl.netlify.app/" target="_blank" rel="noopener" class="portfolio-link" data-i18n="portfolio.view">Live ansehen →</a>
-          </div>
-        </article>
-
         <!-- Ann's Nails — Firma -->
-        <article class="portfolio-item reveal" data-category="firma" style="transition-delay:.2s">
+        <article class="portfolio-item reveal" data-category="firma" style="transition-delay:.1s">
           <a href="https://annsnails.netlify.app/" target="_blank" rel="noopener" class="browser-frame">
             <div class="browser-chrome">
               <div class="browser-dots"><span></span><span></span><span></span></div>
@@ -154,6 +107,30 @@
           </div>
         </article>
 
+        <!-- NHAT Studio — Firma -->
+        <article class="portfolio-item reveal" data-category="firma" style="transition-delay:.15s">
+          <a href="https://nhats.netlify.app/" target="_blank" rel="noopener" class="browser-frame">
+            <div class="browser-chrome">
+              <div class="browser-dots"><span></span><span></span><span></span></div>
+              <div class="browser-url">nhats.netlify.app</div>
+            </div>
+            <div class="browser-viewport">
+              <img src="assets/img/portfolio-nhats.jpg" alt="NHAT Studio Website" loading="lazy">
+            </div>
+          </a>
+          <div class="portfolio-meta">
+            <div>
+              <p class="portfolio-tag" data-i18n="portfolio.tab.firma">Firma</p>
+              <p class="portfolio-name">NHAT Studio</p>
+            </div>
+            <a href="https://nhats.netlify.app/" target="_blank" rel="noopener" class="portfolio-link" data-i18n="portfolio.view">Live ansehen →</a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="portfolio-footer reveal" style="transition-delay:.2s">
+        <a href="referenzen.html" class="btn btn-secondary" data-i18n="portfolio.viewall">Alle Referenzen ansehen →</a>
       </div>
     </div>
   </section>
@@ -241,20 +218,8 @@
           <p class="faq-answer" data-i18n="faq.a7">Deutsch, Englisch, Vietnamesisch — oder mehrsprachig. Ganz nach Ihren Wünschen.</p>
         </details>
         <details class="faq-item reveal" style="transition-delay:.35s">
-          <summary data-i18n="faq.q8">Wer kümmert sich um die technische Umsetzung?</summary>
-          <p class="faq-answer" data-i18n="faq.a8">Das übernehme ich vollständig. Sie beschreiben, was Sie wollen — ich kümmere mich um den Rest.</p>
-        </details>
-        <details class="faq-item reveal" style="transition-delay:.4s">
-          <summary data-i18n="faq.q9">Kann sich der Preis noch ändern?</summary>
-          <p class="faq-answer" data-i18n="faq.a9">Nein. Der Preis wird vorab vereinbart und bleibt fix — keine versteckten Kosten, keine Überraschungen.</p>
-        </details>
-        <details class="faq-item reveal" style="transition-delay:.45s">
-          <summary data-i18n="faq.q10">Kann ich nach der Fertigstellung selbst Texte oder Bilder ändern?</summary>
-          <p class="faq-answer" data-i18n="faq.a10">Ja. Nach der Übergabe können Sie Inhalte wie Texte und Bilder selbst aktualisieren.</p>
-        </details>
-        <details class="faq-item reveal" style="transition-delay:.5s">
-          <summary data-i18n="faq.q11">Wie kann ich Sie am besten erreichen?</summary>
-          <p class="faq-answer" data-i18n="faq.a11">Direkt per WhatsApp — kein Callcenter, keine Warteschleife.</p>
+          <summary data-i18n="faq.q8">Was ist das Besondere an Ihrem Service?</summary>
+          <p class="faq-answer" data-i18n="faq.a8">Persönliche Betreuung statt Agentur — ein fester Preis, kein Callcenter, kein IT-Stress. Nach der Übergabe können Sie Inhalte außerdem selbst aktualisieren.</p>
         </details>
       </div>
     </div>
