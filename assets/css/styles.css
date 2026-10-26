@@ -228,7 +228,6 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 /* ─── Portfolio ──────────────────────────────────────────── */
 .portfolio {
   padding-block: clamp(4rem, 8vw, 7rem);
-  background: var(--bg-alt);
 }
 .portfolio-header {
   margin-bottom: 2.5rem;
@@ -490,7 +489,6 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 /* ─── Advantages ─────────────────────────────────────────── */
 .advantages {
   padding-block: clamp(4rem, 8vw, 7rem);
-  background: var(--bg-alt);
 }
 .advantages-header { margin-bottom: 3rem; }
 .adv-grid {
@@ -563,7 +561,6 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 /* ─── FAQ ────────────────────────────────────────────────── */
 .faq {
   padding-block: clamp(4rem, 8vw, 7rem);
-  background: var(--bg-alt);
 }
 .faq-header { margin-bottom: 3rem; }
 .faq-list { max-width: 680px; }
